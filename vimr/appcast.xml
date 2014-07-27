@@ -11,7 +11,7 @@
                 New App icon!
             </description>
             <sparkle:releaseNotesLink>
-                http://qvacua.com/vimr/release-notes.html
+                http://qvacua.github.io/vimr/release-notes.html
             </sparkle:releaseNotesLink>
             <pubDate>2014-07-26 20:40:11 +0000</pubDate>
             <enclosure url="https://github.com/qvacua/vimr/releases/download/v0.1.1-13/VimR-0.1.1.tar.bz2"
