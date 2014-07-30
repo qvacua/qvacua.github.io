@@ -1,0 +1,25 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/"
+     version="2.0">
+    <channel>
+        <title>Jenkins Menu Appcast</title>
+        <link>http://qvacua.com</link>
+        <description>Most recent changes with links to updates for Jenkins Menu.</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.1.1 — 1 New Feature</title>
+            <description>
+                Added automatic update setting
+            </description>
+            <sparkle:releaseNotesLink>
+                http://qvacua.com/jenkinsmenu/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>2013-04-05 21:41:11 +0000</pubDate>
+            <enclosure url="https://bitbucket.org/qvacua/qvacua/downloads/JenkinsMenu-0.1.1.zip"
+                       sparkle:version="8"
+                       sparkle:shortVersionString="0.1.1"
+                       sparkle:dsaSignature="MCwCFCqw90HDAM8JOT8I8iu1jQCsiEIDAhRXAEVIsMEEzVOYHpP3KWtBZXBkaw=="
+                       length="1459506"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

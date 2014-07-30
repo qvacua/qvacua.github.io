@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typography for Developers Using Markdown</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39374375-1']);
+        _gaq.push(['_setDomainName', 'qvacua.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body style="padding: 0 4em">
+
+<h1>Typography for Developers Using Markdown</h1>
+
+<p>At <a href="http://www.uxmunich.com">UX Munich</a> Marko Dugonjić (<a href="https://twitter.com/markodugonjic">@markodugonjic</a>) gave a very nice talk "Typography for Developers"; find the slides <a href="https://speakerdeck.com/maratz/typography-for-developers-munich-2013">here</a>. In his talk he demonstrated in a step by step manner, how easy it is—even for developers—to apply beautiful and typography using not very complicated CSS. His <a href="http://webdesign.maratz.com/lab/typography-for-developers/">demo CSS</a> is indeed very nice and simple. </p>
+
+<p>I basically used his demo CSS in the first version of <a href="http://qvacua.com">LookDown</a>. However, I realized very soon the "demo" part of his CSS: It is not complete. Some examples include:</p>
+
+<ul>
+    <li>Nested lists do not work,</li>
+    <li>Long headings do not respect the vertical rhythm.</li>
+</ul>
+
+<p>Thus, I needed to improve it, especially geared towards the rendering of Markdown documents, and the following is the result of few hours of work. It still is based on Marko's CSS, but with the following enhancements:</p>
+
+<ul>
+    <li>Nested lists work,</li>
+    <li>Headings from level 1 to 6,</li>
+    <li>Long headings, ie those spanning multiple lines, respect the vertical rhythm,</li>
+    <li>Heveltica Neue for the headings: Just my personal taste,</li>
+    <li>Indented <code>blockquote</code>,</li>
+    <li>Used <code>rem</code> instead of <code>em</code> to avoid nesting issues,</li>
+    <li><code>hr</code> respects the vertical rhythm.</li>
+</ul>
+
+<p>For the source to <a href="https://github.com/qvacua/typo">https://github.com/qvacua/typo</a>. It may well be that I totally misunderstood the vertical rhythm thing and proper sizing of things, but I like it and that's all that counts. =)</p>
+
+<h1>Demo</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet risus interdum enim ultricies consequat quis a lorem. Sed tempor laoreet sapien vel laoreet. Praesent convallis malesuada aliquam. Aliquam ultrices tortor id orci vulputate sed pellentesque leo auctor. Morbi vehicula enim et eros tristique sed molestie quam vulputate. Proin faucibus, metus sit amet elementum mattis, lectus erat rutrum orci, vel laoreet quam odio et nisl. Donec et quam vitae arcu euismod faucibus nec at nunc. Sed bibendum luctus semper. Morbi a libero mollis lorem blandit ornare.</p>
+
+<ul>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Lorem ipsum dolor sit amet<ol>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+    </ol></li>
+    <li>Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis, est ligula tristique est, a consectetur nulla nunc eu mauris. Etiam nec quam et leo laoreet molestie eu nec urna. Sed sit amet lectus nec nisi pellentesque laoreet eget venenatis lacus. Nullam rhoncus tempus massa, non varius tellus feugiat sed. Vestibulum sed elit massa. Etiam at egestas purus. Pellentesque luctus vestibulum magna vitae rhoncus. Suspendisse pharetra, lacus ut lacinia volutpat, arcu est vehicula diam, at rhoncus neque justo eu elit. Phasellus vel arcu sed lacus posuere fringilla nec sed eros.</li>
+    <li>Lorem ipsum dolor sit amet</li>
+</ul>
+
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+
+<p>Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis, est ligula tristique est, a consectetur nulla nunc eu mauris. Etiam nec quam et leo laoreet molestie eu nec urna. Sed sit amet lectus nec nisi pellentesque laoreet eget venenatis lacus. Nullam rhoncus tempus massa, non varius tellus feugiat sed. Vestibulum sed elit massa. Etiam at egestas purus. Pellentesque luctus vestibulum magna vitae rhoncus. Suspendisse pharetra, lacus ut lacinia volutpat, arcu est vehicula diam, at rhoncus neque justo eu elit. Phasellus vel arcu sed lacus posuere fringilla nec sed eros.</p>
+
+<ol>
+    <li>Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis, est ligula tristique est, a consectetur nulla nunc eu mauris. Etiam nec quam et leo laoreet molestie eu nec urna. Sed sit amet lectus nec nisi pellentesque laoreet eget venenatis lacus. Nullam rhoncus tempus massa, non varius tellus feugiat sed. Vestibulum sed elit massa. Etiam at egestas purus. Pellentesque luctus vestibulum magna vitae rhoncus. Suspendisse pharetra, lacus ut lacinia volutpat, arcu est vehicula diam, at rhoncus neque justo eu elit. Phasellus vel arcu sed lacus posuere fringilla nec sed eros.</li>
+    <li>Element<ul>
+        <li>Element</li>
+        <li>Element</li>
+    </ul></li>
+    <li>Another Element</li>
+</ol>
+
+<h1>Long Header 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+<h2>Header 2</h2>
+<h2>Long Header 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+<h3>Header 3</h3>
+<h3>Long Header 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula dapibus metus, id luctus enim aliquet a.</h3>
+<h4>Header 4</h4>
+<h4>Long Header 4: Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis</h4>
+<h5>Header 5</h5>
+<h5>Long Header 5: Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis, est ligula tristique est</h5>
+<h6>Header 6</h6>
+<h6>Long Header 6: Maecenas vehicula dapibus metus, id luctus enim aliquet a. Fusce bibendum, justo et consectetur lobortis, est ligula tristique est, a consectetur nulla nunc eu mauris.</h6>
+
+<p>Duis ut suscipit justo. Etiam sed consequat purus. Ut varius, justo id pulvinar dictum, massa nibh eleifend eros, vitae tempus velit justo eget dui. Cras cursus fermentum vestibulum. Curabitur fermentum tellus nec purus consectetur id varius sem viverra. Vivamus et eros quis velit adipiscing dignissim. Donec lacus mauris, venenatis id convallis in, aliquet non mi. Quisque non sem nec dui blandit pulvinar. Nam convallis semper lectus scelerisque malesuada. Sed a lacinia mauris. In ultricies, nisl vel aliquam luctus, mauris libero elementum turpis, non volutpat tortor libero nec erat. Maecenas et nisi eget felis malesuada imperdiet vel sit amet nunc. Vivamus sit amet pharetra lacus.</p>
+
+<hr>
+
+<p>Duis ut suscipit justo. Etiam sed consequat purus. Ut varius, justo id pulvinar dictum, massa nibh eleifend eros, vitae tempus velit justo eget dui. Cras cursus fermentum vestibulum. Curabitur fermentum tellus nec purus consectetur id varius sem viverra. Vivamus et eros quis velit adipiscing dignissim. Donec lacus mauris, venenatis id convallis in, aliquet non mi. Quisque non sem nec dui blandit pulvinar. Nam convallis semper lectus scelerisque malesuada. Sed a lacinia mauris. In ultricies, nisl vel aliquam luctus, mauris libero elementum turpis, non volutpat tortor libero nec erat. Maecenas et nisi eget felis malesuada imperdiet vel sit amet nunc. Vivamus sit amet pharetra lacus.</p>
+
+<blockquote><p>Duis ut suscipit justo. Etiam sed consequat purus. Ut varius, justo id pulvinar dictum, massa nibh eleifend eros, vitae tempus velit justo eget dui. Cras cursus fermentum vestibulum. Curabitur fermentum tellus nec purus consectetur id varius sem viverra. Vivamus et eros quis velit adipiscing dignissim. Donec lacus mauris, venenatis id convallis in, aliquet non mi. Quisque non sem nec dui blandit pulvinar. Nam convallis semper lectus scelerisque malesuada. Sed a lacinia mauris. In ultricies, nisl vel aliquam luctus, mauris libero elementum turpis, non volutpat tortor libero nec erat. Maecenas et nisi eget felis malesuada imperdiet vel sit amet nunc. Vivamus sit amet pharetra lacus.</p></blockquote>
+
+<p>Donec eget dui leo. In hac habitasse platea dictumst. Maecenas ut euismod lectus. Mauris malesuada iaculis luctus. Donec vestibulum dictum feugiat. Aenean eu leo et nibh pretium bibendum nec vel diam. Quisque a arcu quis eros sollicitudin consectetur placerat eu massa.</p>
+
+<h2>Header 2</h2>
+
+<p>Nunc vel nisi arcu, eget gravida odio. Sed risus diam, semper nec tincidunt consequat, viverra quis eros. Donec ac eros ornare odio dignissim pretium id at urna. Pellentesque sit amet lorem sit amet felis interdum tristique nec sed nunc. In nec tristique odio. In hac habitasse platea dictumst. Curabitur tincidunt leo ut erat vestibulum varius. Morbi tempor accumsan aliquam. Donec posuere tortor sit amet purus sodales auctor. Etiam viverra ultrices egestas. Nullam ac mauris metus, non ultricies arcu.</p>
+
+<h3>Header 3</h3>
+<p>Mauris id tortor turpis. Proin varius consequat vehicula. In hac habitasse platea dictumst. Etiam dictum eros sed metus imperdiet varius. Duis pulvinar est vel nisi egestas dictum. Curabitur eleifend pulvinar orci, quis hendrerit mi pellentesque sodales. Mauris non sem sed urna vehicula pulvinar. Aenean fermentum libero in nisl scelerisque egestas. Duis iaculis nulla id mauris lobortis nec hendrerit est aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur dictum porta accumsan. Quisque scelerisque tristique iaculis. Fusce sed mauris mauris. Duis convallis rutrum massa, et aliquet tellus consectetur et. Maecenas suscipit accumsan risus id gravida. Maecenas ac ligula at lectus porttitor vehicula.</p>
+
+<h4>Header 4</h4>
+<p>Ut posuere tellus ac justo pulvinar aliquet. Pellentesque vulputate posuere nulla in interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sit amet neque massa. Sed dolor lorem, posuere at lobortis vitae, sodales nec arcu. Maecenas in ligula id massa pellentesque auctor non at nisi. Integer nulla tortor, sollicitudin nec porta vel, sodales sed enim. Ut dignissim diam ut eros vehicula id faucibus quam sollicitudin.</p>
+
+<h5>Header 5</h5>
+<p>Nulla non enim neque, quis venenatis dolor. Praesent consectetur massa vitae tortor fringilla pellentesque. Proin risus risus, vulputate in dictum sed, mollis id arcu. Cras faucibus, nulla et dictum consectetur, est tellus luctus nisl, ac adipiscing sapien turpis ac est. Mauris diam risus, faucibus quis tincidunt a, eleifend at risus. Mauris metus nunc, pretium eget dignissim nec, tincidunt sit amet ipsum. Aliquam venenatis laoreet neque, at tincidunt purus ullamcorper sit amet. Aliquam pharetra eleifend ullamcorper.</p>
+
+<h6>Header 6</h6>
+<p>Nam massa nibh, egestas sed congue sit amet, pellentesque ut arcu. Pellentesque orci nibh, aliquam in ullamcorper eget, pellentesque vitae magna. Sed nec justo purus. Vestibulum porttitor, mi non rutrum vehicula, metus mi pharetra velit, at pulvinar augue enim eget massa. Ut non est vel libero tincidunt rhoncus. Duis tempus orci vel felis luctus sollicitudin. Cras tristique interdum rutrum. Ut et convallis neque. Duis id augue mi. Aenean sed metus id orci accumsan pharetra sed non nunc. Donec nec justo eu orci consequat varius vestibulum et quam. Suspendisse tortor magna, aliquam non imperdiet non, ornare sit amet orci. Vestibulum nec molestie odio. Duis aliquam tellus sapien, accumsan sodales tellus.</p>
+
+<table>
+    <thead>
+    <tr>
+        <th scope="col">&#160;</th>
+        <th scope="col" class="numeric">Today</th>
+        <th scope="col" class="numeric">Week</th>
+        <th scope="col" class="numeric">Month</th>
+        <th scope="col" class="numeric">Year</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">Property #1</th>
+        <td class="numeric">123</td>
+        <td class="numeric">234</td>
+        <td class="numeric">987</td>
+        <td class="numeric">973</td>
+    </tr>
+    <tr>
+        <th scope="row">Property #2</th>
+        <td class="numeric">9089</td>
+        <td class="numeric">9087</td>
+        <td class="numeric">9871</td>
+        <td class="numeric">2980</td>
+    </tr>
+    <tr>
+        <th scope="row">Property #3</th>
+        <td class="numeric">9218093</td>
+        <td class="numeric">2801921</td>
+        <td class="numeric">8977865</td>
+        <td class="numeric">2801093</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>Aliquam sit amet neque eu mi mattis hendrerit luctus ac ante. Fusce a fermentum metus. Mauris consectetur enim in lectus ullamcorper sodales. Aenean eget diam tellus, sed interdum velit. Vivamus nec scelerisque nulla. Etiam enim ante, tincidunt quis rhoncus quis, molestie convallis dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eu tortor eu massa suscipit rhoncus. Suspendisse enim elit, adipiscing ut feugiat eget, congue vel nisi. Integer a urna in justo mattis semper quis nec nisl. Vestibulum vel risus nunc. Nullam eget quam bibendum eros gravida feugiat non quis nisl. Donec non velit mauris, nec scelerisque massa.</p>
+</body>
+</html>

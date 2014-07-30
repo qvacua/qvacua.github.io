@@ -1,0 +1,24 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/"
+     version="2.0">
+    <channel>
+        <title>LookDown Appcast</title>
+        <link>http://qvacua.com</link>
+        <description>Most recent changes with links to updates for LookDown.</description>
+        <item>
+            <title>Version 0.1.2</title>
+            <description>
+                Bugfix: When the file is renamed, LookDown crashes.
+            </description>
+            <sparkle:releaseNotesLink>
+                http://qvacua.com/lookdown/release-notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>2013-06-23 14:11:11 +0000</pubDate>
+            <enclosure url="https://bitbucket.org/qvacua/qvacua/downloads/LookDown-0.1.2.zip"
+                       sparkle:version="7"
+                       sparkle:shortVersionString="0.1.2"
+                       sparkle:dsaSignature="MCwCFAXCKLAeTaSWGqHrkQGbiWFkBiN5AhQwoCblMDGlst4FU6sTrNinYvEm5w=="
+                       length="546174"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
