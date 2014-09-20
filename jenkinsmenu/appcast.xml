@@ -6,18 +6,21 @@
         <description>Most recent changes with links to updates for Jenkins Menu.</description>
         <language>en</language>
         <item>
-            <title>Version 0.1.1 — 1 New Feature</title>
+            <title>Version 0.2.0</title>
             <description>
-                Added automatic update setting
+                <ul>
+                    <li>Bugfix: broken black list</li>
+                    <li>Black list now supports regex</li>
+                </ul>
             </description>
             <sparkle:releaseNotesLink>
                 http://qvacua.com/jenkinsmenu/release-notes.html
             </sparkle:releaseNotesLink>
             <pubDate>2013-04-05 21:41:11 +0000</pubDate>
-            <enclosure url="https://bitbucket.org/qvacua/qvacua/downloads/JenkinsMenu-0.1.1.zip"
-                       sparkle:version="8"
-                       sparkle:shortVersionString="0.1.1"
-                       sparkle:dsaSignature="MCwCFCqw90HDAM8JOT8I8iu1jQCsiEIDAhRXAEVIsMEEzVOYHpP3KWtBZXBkaw=="
+            <enclosure url="https://github.com/qvacua/jenkins-menu/releases/download/v0.2.0/Jenkins.Menu-0.2.0.zip"
+                       sparkle:version="9"
+                       sparkle:shortVersionString="0.2.0"
+                       sparkle:dsaSignature="MCwCFDxPxueEIvU08A8RE+FtZEwL6g+tAhRGFpSTCe9stE/0M6m0NPMJz54hKQ=="
                        length="1459506"
                        type="application/octet-stream"/>
         </item>
