@@ -6,19 +6,18 @@
     <description>Recent content in Posts on I should cocoa ― Tae Won Ha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2019 10:14:48 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2019 10:22:26 +0100</lastBuildDate>
     
 	<atom:link href="http://ishouldcocoa.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>http://ishouldcocoa.net/posts/test/</link>
-      <pubDate>Tue, 26 Mar 2019 10:14:48 +0100</pubDate>
+      <title>Strange interaction between CTFontManager and NSFontManager</title>
+      <link>http://ishouldcocoa.net/posts/strange-behavior-ctfontmanager-nsfontmanager/</link>
+      <pubDate>Tue, 26 Mar 2019 10:22:26 +0100</pubDate>
       
-      <guid>http://ishouldcocoa.net/posts/test/</guid>
-      <description>Just a test post
-let a = 1 Some Text</description>
+      <guid>http://ishouldcocoa.net/posts/strange-behavior-ctfontmanager-nsfontmanager/</guid>
+      <description>On macOS 10.14 there seems to be a bug in the Core Text framework. When I use NSFontManager to check the availability of a font before loading it using CTFontManager, I get a strange behavior and possibly a memory leak. When using a Cocoa port of thii/FontAwesome.swift for VimR, I noticed that the FontAwesome font files are loaded over and over again. Even after the main window instance is deinited, the memory used to load the font files seems to stay as shown in the following Instruments screenshot</description>
     </item>
     
   </channel>

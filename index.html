@@ -43,15 +43,14 @@
 
 	<div class="catalogue">
 		
-			<a href="http://ishouldcocoa.net/posts/test/" class="catalogue-item">
+			<a href="http://ishouldcocoa.net/posts/strange-behavior-ctfontmanager-nsfontmanager/" class="catalogue-item">
     <div>
-        <time datetime="2019-03-26 10:14:48 &#43;0100 CET" class="catalogue-time">March 26, 2019</time>
-        <h1 class="catalogue-title">Test</h1>
+        <time datetime="2019-03-26 10:22:26 &#43;0100 CET" class="catalogue-time">March 26, 2019</time>
+        <h1 class="catalogue-title">Strange interaction between CTFontManager and NSFontManager</h1>
         <div class="catalogue-line"></div>
 
         <p>
-            Just a test post
-let a = 1 Some Text
+            On macOS 10.14 there seems to be a bug in the Core Text framework. When I use NSFontManager to check the availability of a font before loading it using CTFontManager, I get a strange behavior and possibly a memory leak. When using a Cocoa port of thii/FontAwesome.swift for VimR, I noticed that the FontAwesome font files are loaded over and over again. Even after the main window instance is deinited, the memory used to load the font files seems to stay as shown in the following Instruments screenshot
         </p>
     </div>
 </a>
@@ -70,7 +69,7 @@ let a = 1 Some Text
 
         		<footer>
 			<span>
-			&copy; <time datetime="2019-03-26 13:30:42.4393 &#43;0100 CET m=&#43;0.040060825">2019</time> Tae Won Ha. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2019-03-26 13:43:04.62561 &#43;0100 CET m=&#43;0.047052039">2019</time> Tae Won Ha. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 
