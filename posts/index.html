@@ -39,6 +39,20 @@
 <main>
 	<div class="catalogue">
 		
+			<a href="http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/" class="catalogue-item">
+    <div>
+        <time datetime="2019-03-28 10:42:10 &#43;0100 CET" class="catalogue-time">March 28, 2019</time>
+        <h1 class="catalogue-title">Parallel map for arrays in Swift</h1>
+        <div class="catalogue-line"></div>
+
+        <p>
+            I needed a parallel map for parallel computation of glyphs in VimR. I use the following (I don&rsquo;t need any throwing transformations)
+extension RandomAccessCollection where Index == Int { func parallelMap&lt;T&gt;( chunkSize: Int = 1, _ transform: @escaping (Element) -&gt; T ) -&gt; [T] { let count = self.count guard count &gt; chunkSize else { return self.map(transform) } var result = Array&lt;T?&gt;(repeating: nil, count: count) result.withUnsafeMutableBufferPointer { pointer in if chunkSize == 1 { DispatchQueue.
+        </p>
+    </div>
+</a>
+
+		
 			<a href="http://ishouldcocoa.net/2019/03/strange-interaction-between-ctfontmanager-and-nsfontmanager/" class="catalogue-item">
     <div>
         <time datetime="2019-03-26 10:22:26 &#43;0100 CET" class="catalogue-time">March 26, 2019</time>
@@ -65,7 +79,7 @@
 
         		<footer>
 			<span>
-			&copy; <time datetime="2019-03-28 10:47:37.047052 &#43;0100 CET m=&#43;0.052497406">2019</time> Tae Won Ha. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			&copy; <time datetime="2019-03-28 10:49:51.53827 &#43;0100 CET m=&#43;0.048499216">2019</time> Tae Won Ha. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
 			</span>
 		</footer>
 

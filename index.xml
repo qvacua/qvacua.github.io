@@ -6,10 +6,20 @@
     <description>Recent content on I should cocoa ― Tae Won Ha</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2019 10:22:26 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 28 Mar 2019 10:42:10 +0100</lastBuildDate>
     
 	<atom:link href="http://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Parallel map for arrays in Swift</title>
+      <link>http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/</link>
+      <pubDate>Thu, 28 Mar 2019 10:42:10 +0100</pubDate>
+      
+      <guid>http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/</guid>
+      <description>I needed a parallel map for parallel computation of glyphs in VimR. I use the following (I don&amp;rsquo;t need any throwing transformations)
+extension RandomAccessCollection where Index == Int { func parallelMap&amp;lt;T&amp;gt;( chunkSize: Int = 1, _ transform: @escaping (Element) -&amp;gt; T ) -&amp;gt; [T] { let count = self.count guard count &amp;gt; chunkSize else { return self.map(transform) } var result = Array&amp;lt;T?&amp;gt;(repeating: nil, count: count) result.withUnsafeMutableBufferPointer { pointer in if chunkSize == 1 { DispatchQueue.</description>
+    </item>
     
     <item>
       <title>Strange interaction between CTFontManager and NSFontManager</title>
