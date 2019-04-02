@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ishouldcocoa.net/2019/04/%EC%9D%B8%EA%B0%84%EC%8B%A4%EA%B2%A9/</loc>
+    <lastmod>2019-04-02T22:01:03+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/</loc>
     <lastmod>2019-03-28T10:42:10+01:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>http://ishouldcocoa.net/</loc>
-    <lastmod>2019-03-28T10:42:10+01:00</lastmod>
+    <lastmod>2019-04-02T22:01:03+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ishouldcocoa.net/posts/</loc>
-    <lastmod>2019-03-28T10:42:10+01:00</lastmod>
+    <lastmod>2019-04-02T22:01:03+02:00</lastmod>
     <priority>0</priority>
   </url>
   
