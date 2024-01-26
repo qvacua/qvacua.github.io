@@ -1,0 +1,14 @@
+.profile h1 {
+    font-weight: bold;
+    letter-spacing: -0.05rem;
+}
+
+#list-page .title {
+    font-weight: bold;
+    letter-spacing: -0.05rem;
+}
+
+#single .title {
+    font-weight: bold;
+    letter-spacing: -0.05rem;
+}

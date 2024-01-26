@@ -1,47 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I should cocoa ― Tae Won Ha</title>
-    <link>http://ishouldcocoa.net/</link>
-    <description>Recent content on I should cocoa ― Tae Won Ha</description>
+    <title>I should cocoa</title>
+    <link>https://ishouldcocoa.net/</link>
+    <description>Recent content on I should cocoa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 22:01:03 +0200</lastBuildDate>
-    
-	<atom:link href="http://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Jan 2024 00:12:14 +0100</lastBuildDate>
+    <atom:link href="https://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>인간실격</title>
-      <link>http://ishouldcocoa.net/2019/04/%EC%9D%B8%EA%B0%84%EC%8B%A4%EA%B2%A9/</link>
-      <pubDate>Tue, 02 Apr 2019 22:01:03 +0200</pubDate>
-      
-      <guid>http://ishouldcocoa.net/2019/04/%EC%9D%B8%EA%B0%84%EC%8B%A4%EA%B2%A9/</guid>
-      <description>아아, 그 얼굴에는 표정이 없을 뿐만 아니라 인상 조차 없다. 특징이 없는 것이다.
-부끄럼 많은 생애를 보냈습니다. 저는 인간의 삶이라는 것을 도무지 이해할 수 없습니다.
-아아, 이 일군의 화가들은 인간이라는 도깨비에게 상처 잆고 위협받다 끝내는 환영을 믿게 되었고 대낮의 자연 속에서 생생하게 요괴를 본 것입니다.
-이 세상 인간들의 ‘삶’이라는 것을 두려워하면서 매일 밤 잠 못 이루며 지옥에서 신음하기보다는 오히려 감옥 쪽이 편할지도 모른다고까지 생각하고 있었습니다.
-겁쟁이는 행복마저도 두려워하는 법입니다.</description>
+      <title>Some reactions to Apple&#39;s policy changes to comply to EU&#39;s DMA</title>
+      <link>https://ishouldcocoa.net/posts/eu-dma-apple/</link>
+      <pubDate>Sat, 27 Jan 2024 00:12:14 +0100</pubDate>
+      <guid>https://ishouldcocoa.net/posts/eu-dma-apple/</guid>
+      <description> Mozilla says Apple’s new browser rules are ‘as painful as possible’ for Firefox Alternative browser engines are not allowed on iPadOS, but only on iOS? And only in EU? 😑 Spotify: Apple’s Proposed Changes Reject the Goals of the DMA Epic&amp;rsquo;s comment on Twitter Example fee calculation If you make less than $0.57 per user—which is most apps—you will end up negative and you will owe Apple money. </description>
     </item>
-    
-    <item>
-      <title>Parallel map for arrays in Swift</title>
-      <link>http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/</link>
-      <pubDate>Thu, 28 Mar 2019 10:42:10 +0100</pubDate>
-      
-      <guid>http://ishouldcocoa.net/2019/03/parallel-map-for-arrays-in-swift/</guid>
-      <description>I needed a parallel map for parallel computation of glyphs in VimR. I use the following (I don&amp;rsquo;t need any throwing transformations)
-extension RandomAccessCollection where Index == Int { func parallelMap&amp;lt;T&amp;gt;( chunkSize: Int = 1, _ transform: @escaping (Element) -&amp;gt; T ) -&amp;gt; [T] { let count = self.count guard count &amp;gt; chunkSize else { return self.map(transform) } var result = Array&amp;lt;T?&amp;gt;(repeating: nil, count: count) result.withUnsafeMutableBufferPointer { pointer in if chunkSize == 1 { DispatchQueue.</description>
-    </item>
-    
-    <item>
-      <title>Strange interaction between CTFontManager and NSFontManager</title>
-      <link>http://ishouldcocoa.net/2019/03/strange-interaction-between-ctfontmanager-and-nsfontmanager/</link>
-      <pubDate>Tue, 26 Mar 2019 10:22:26 +0100</pubDate>
-      
-      <guid>http://ishouldcocoa.net/2019/03/strange-interaction-between-ctfontmanager-and-nsfontmanager/</guid>
-      <description>On macOS 10.14 there seems to be a bug in the Core Text framework. When I use NSFontManager to check the availability of a font before loading it using CTFontManager, I get a strange behavior and possibly a memory leak. When using a Cocoa port of thii/FontAwesome.swift for VimR, I noticed that the FontAwesome font files are loaded over and over again. Even after the main window instance is deinited, the memory used to load the font files seems to stay as shown in the following Instruments screenshot</description>
-    </item>
-    
   </channel>
 </rss>
