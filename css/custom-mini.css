@@ -1,7 +1,8 @@
 .profile h1 {
     color: black;
     font-weight: bold;
-    letter-spacing: -0.05rem;
+    letter-spacing: -0.125rem;
+    font-size: 2.5rem;
 }
 
 #list-page .title {
