@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simd on I should cocoa</title>
+    <link>https://ishouldcocoa.net/tags/simd/</link>
+    <description>Recent content in simd on I should cocoa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2024 06:54:10 +0100</lastBuildDate>
+    <atom:link href="https://ishouldcocoa.net/tags/simd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CW05 notes</title>
+      <link>https://ishouldcocoa.net/posts/2024-02-04-notes/</link>
+      <pubDate>Thu, 08 Feb 2024 06:54:10 +0100</pubDate>
+      <guid>https://ishouldcocoa.net/posts/2024-02-04-notes/</guid>
+      <description> StringZilla: Up to 10x faster strings for C, C++, Pjython, Rust, and Swift, leveraging SWAR and SIMD on Arm Neon and x86 AVX2 &amp;amp; AVX-512-capable chips to accelerate search, sort, edit distances, alignment scores, etc 🦖 Why do we need monads?: Nice explanation. </description>
+    </item>
+  </channel>
+</rss>

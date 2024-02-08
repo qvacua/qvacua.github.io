@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ishouldcocoa.net/posts/2024-02-04-notes/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/tags/functional-programming/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/tags/monad/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/posts/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/tags/simd/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/tags/string/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ishouldcocoa.net/tags/</loc>
+    <lastmod>2024-02-08T06:54:10+01:00</lastmod>
+  </url><url>
     <loc>https://ishouldcocoa.net/tags/bahn/</loc>
     <lastmod>2024-02-03T10:00:27+01:00</lastmod>
   </url><url>
@@ -14,22 +38,13 @@
     <loc>https://ishouldcocoa.net/tags/english/</loc>
     <lastmod>2024-02-03T10:00:27+01:00</lastmod>
   </url><url>
-    <loc>https://ishouldcocoa.net/</loc>
-    <lastmod>2024-02-03T10:00:27+01:00</lastmod>
-  </url><url>
     <loc>https://ishouldcocoa.net/tags/korea/</loc>
     <lastmod>2024-02-03T10:00:27+01:00</lastmod>
   </url><url>
     <loc>https://ishouldcocoa.net/tags/linux/</loc>
     <lastmod>2024-02-03T10:00:27+01:00</lastmod>
   </url><url>
-    <loc>https://ishouldcocoa.net/posts/</loc>
-    <lastmod>2024-02-03T10:00:27+01:00</lastmod>
-  </url><url>
     <loc>https://ishouldcocoa.net/tags/silicon/</loc>
-    <lastmod>2024-02-03T10:00:27+01:00</lastmod>
-  </url><url>
-    <loc>https://ishouldcocoa.net/tags/</loc>
     <lastmod>2024-02-03T10:00:27+01:00</lastmod>
   </url><url>
     <loc>https://ishouldcocoa.net/tags/apple/</loc>
