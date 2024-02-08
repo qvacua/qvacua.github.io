@@ -13,7 +13,7 @@
       <link>https://ishouldcocoa.net/posts/2024-02-04-notes/</link>
       <pubDate>Thu, 08 Feb 2024 06:54:10 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-02-04-notes/</guid>
-      <description> StringZilla: Up to 10x faster strings for C, C++, Pjython, Rust, and Swift, leveraging SWAR and SIMD on Arm Neon and x86 AVX2 &amp;amp; AVX-512-capable chips to accelerate search, sort, edit distances, alignment scores, etc 🦖 Why do we need monads?: Nice explanation. </description>
+      <description> StringZilla: Up to 10x faster strings for C, C++, Pjython, Rust, and Swift, leveraging SWAR and SIMD on Arm Neon and x86 AVX2 &amp;amp; AVX-512-capable chips to accelerate search, sort, edit distances, alignment scores, etc 🦖 Why do we need monads?: Nice explanation. ARM64 assembly: I should learn at least the basics of assembly&amp;hellip; ARMv8 AArch64/ARM64 Full Beginner&amp;rsquo;s Assembly Tutorial HelloSilicon: An introduction to assembly on Apple Silicon Macs. Writing ARM64 code for Apple platforms </description>
     </item>
     <item>
       <title>CW05 notes</title>
