@@ -6,8 +6,15 @@
     <description>Recent content on I should cocoa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2024 06:54:10 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 14 Feb 2024 17:23:49 +0100</lastBuildDate>
     <atom:link href="https://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CW07 notes</title>
+      <link>https://ishouldcocoa.net/posts/2024-02-14-notes/</link>
+      <pubDate>Wed, 14 Feb 2024 17:23:49 +0100</pubDate>
+      <guid>https://ishouldcocoa.net/posts/2024-02-14-notes/</guid>
+      <description> C++ interop Mixing Swift and C++ Google throws $1M at Rust Foundation to build C++ bridges </description>
+    </item>
     <item>
       <title>CW06 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-02-04-notes/</link>
