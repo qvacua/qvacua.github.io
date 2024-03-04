@@ -6,8 +6,15 @@
     <description>Recent content on I should cocoa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Feb 2024 19:39:37 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 18:05:20 +0100</lastBuildDate>
     <atom:link href="https://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacBook Air M3 vs MacBook Pro M3</title>
+      <link>https://ishouldcocoa.net/posts/2024-03-04-macbook-air-m3-vs-pro/</link>
+      <pubDate>Mon, 04 Mar 2024 18:05:20 +0100</pubDate>
+      <guid>https://ishouldcocoa.net/posts/2024-03-04-macbook-air-m3-vs-pro/</guid>
+      <description>The new MacBook Air M3 supports two external displays with the laptop lid closed which Apple should have done from the very beginning for laptops with Apple Silicon:&#xA;However, the MacBook Pro M3 does not seem to support two external displays with lid closed:&#xA;I do not understand.</description>
+    </item>
     <item>
       <title>CW09 Notes</title>
       <link>https://ishouldcocoa.net/posts/2024-02-26-notes/</link>
