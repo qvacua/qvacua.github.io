@@ -6,14 +6,21 @@
     <description>Recent content in Posts on I should cocoa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Mar 2024 18:05:20 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 19:45:36 +0100</lastBuildDate>
     <atom:link href="https://ishouldcocoa.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MacBook Air M3 vs MacBook Pro M3</title>
-      <link>https://ishouldcocoa.net/posts/2024-03-04-macbook-air-m3-vs-pro/</link>
+      <title>CW11 notes</title>
+      <link>https://ishouldcocoa.net/posts/2024-03-10-notes/</link>
+      <pubDate>Sun, 10 Mar 2024 19:45:36 +0100</pubDate>
+      <guid>https://ishouldcocoa.net/posts/2024-03-10-notes/</guid>
+      <description>Write performance of encrypted SD card 🔗When I encrypt the whole SD card using APFS, I get 5 – 10 MB/s write performance. However, if I use unencrypted APFS and create an encrypted disk image (128bit AES, sparse bundle), I get 30 – 40 MB/s write performance. Any reason for this? 🤨</description>
+    </item>
+    <item>
+      <title>CW10 notes</title>
+      <link>https://ishouldcocoa.net/posts/2024-03-04-notes/</link>
       <pubDate>Mon, 04 Mar 2024 18:05:20 +0100</pubDate>
-      <guid>https://ishouldcocoa.net/posts/2024-03-04-macbook-air-m3-vs-pro/</guid>
-      <description>The new MacBook Air M3 supports two external displays with the laptop lid closed which Apple should have done from the very beginning for laptops with Apple Silicon:&#xA;However, the MacBook Pro M3 does not seem to support two external displays with lid closed:&#xA;I do not understand.</description>
+      <guid>https://ishouldcocoa.net/posts/2024-03-04-notes/</guid>
+      <description>MacBook Air M3 vs MacBook Pro M3 🔗The new MacBook Air M3 supports two external displays with the laptop lid closed which Apple should have done from the very beginning for laptops with Apple Silicon:&#xA;However, the MacBook Pro M3 does not seem to support two external displays with lid closed:&#xA;I do not understand.&#xA;Update 2024-03-10 🔗It seems MacBook Pro M3 will be able to operate two external displays via software update.</description>
     </item>
     <item>
       <title>CW09 Notes</title>
