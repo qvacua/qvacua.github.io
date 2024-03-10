@@ -9,42 +9,42 @@
     <lastBuildDate>Sun, 10 Mar 2024 19:45:36 +0100</lastBuildDate>
     <atom:link href="https://ishouldcocoa.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CW11 notes</title>
+      <title>2024-CW11 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-03-10-notes/</link>
       <pubDate>Sun, 10 Mar 2024 19:45:36 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-03-10-notes/</guid>
       <description>Memory usage of 1Password 7 and 8 🔗1Password 7 with main window open on MacBook Air 13&amp;rsquo;, 2018&#xA;1Password 8 with main window open on MacBook Pro M1&#xA;Besides the difference in total memory usage&#xA;1Password 7: 102 MB 1Password 8: 519.8 MB which is 5 times more, 1Password 8 has 71 threads? Wow.&#xA;Write performance of encrypted SD card 🔗When I encrypt the whole SD card using APFS, I get 5 – 10 MB/s write performance.</description>
     </item>
     <item>
-      <title>CW10 notes</title>
+      <title>2024-CW10 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-03-04-notes/</link>
       <pubDate>Mon, 04 Mar 2024 18:05:20 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-03-04-notes/</guid>
       <description>MacBook Air M3 vs MacBook Pro M3 🔗Update 2024-03-10 🔗It seems MacBook Pro M3 will be able to operate two external displays via software update. Apple should enable MacBook Pros with Pro silicons to operate three external displays with lid closed.&#xA;The new MacBook Air M3 supports two external displays with the laptop lid closed which Apple should have done from the very beginning for laptops with Apple Silicon:&#xA;However, the MacBook Pro M3 does not seem to support two external displays with lid closed:</description>
     </item>
     <item>
-      <title>CW09 Notes</title>
+      <title>2024-CW09 Notes</title>
       <link>https://ishouldcocoa.net/posts/2024-02-26-notes/</link>
       <pubDate>Mon, 26 Feb 2024 19:39:37 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-02-26-notes/</guid>
       <description> Future Software Should Be Memory Safe Reddit discussion </description>
     </item>
     <item>
-      <title>CW07 notes</title>
+      <title>2024-CW07 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-02-14-notes/</link>
       <pubDate>Wed, 14 Feb 2024 17:23:49 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-02-14-notes/</guid>
       <description> C++ interop Mixing Swift and C++ Google throws $1M at Rust Foundation to build C++ bridges Mozilla lays off 60 people, wants to build AI into Firefox free nginx: Ars Technica article </description>
     </item>
     <item>
-      <title>CW06 notes</title>
+      <title>2024-CW06 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-02-04-notes/</link>
       <pubDate>Thu, 08 Feb 2024 06:54:10 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-02-04-notes/</guid>
       <description> StringZilla: Up to 10x faster strings for C, C++, Python, Rust, and Swift, leveraging SWAR and SIMD on Arm Neon and x86 AVX2 &amp;amp; AVX-512-capable chips to accelerate search, sort, edit distances, alignment scores, etc 🦖 Why do we need monads?: Nice explanation. ARM64 assembly: I should learn at least the basics of assembly&amp;hellip; ARMv8 AArch64/ARM64 Full Beginner&amp;rsquo;s Assembly Tutorial HelloSilicon: An introduction to assembly on Apple Silicon Macs. Writing ARM64 code for Apple platforms </description>
     </item>
     <item>
-      <title>CW05 notes</title>
+      <title>2024-CW05 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-01-29-notes/</link>
       <pubDate>Sat, 03 Feb 2024 10:00:27 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-01-29-notes/</guid>

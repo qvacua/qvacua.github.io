@@ -9,14 +9,14 @@
     <lastBuildDate>Sun, 10 Mar 2024 19:45:36 +0100</lastBuildDate>
     <atom:link href="https://ishouldcocoa.net/tags/macbook-pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CW11 notes</title>
+      <title>2024-CW11 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-03-10-notes/</link>
       <pubDate>Sun, 10 Mar 2024 19:45:36 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-03-10-notes/</guid>
       <description>Memory usage of 1Password 7 and 8 🔗1Password 7 with main window open on MacBook Air 13&amp;rsquo;, 2018&#xA;1Password 8 with main window open on MacBook Pro M1&#xA;Besides the difference in total memory usage&#xA;1Password 7: 102 MB 1Password 8: 519.8 MB which is 5 times more, 1Password 8 has 71 threads? Wow.&#xA;Write performance of encrypted SD card 🔗When I encrypt the whole SD card using APFS, I get 5 – 10 MB/s write performance.</description>
     </item>
     <item>
-      <title>CW10 notes</title>
+      <title>2024-CW10 notes</title>
       <link>https://ishouldcocoa.net/posts/2024-03-04-notes/</link>
       <pubDate>Mon, 04 Mar 2024 18:05:20 +0100</pubDate>
       <guid>https://ishouldcocoa.net/posts/2024-03-04-notes/</guid>
